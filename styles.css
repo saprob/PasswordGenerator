@@ -1,0 +1,79 @@
+body {
+  padding: 20px;
+  background-color: #1c1c1c;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: whitesmoke;
+  margin-bottom: 8px;
+}
+
+.green {
+  color: #4ADF86;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(179, 177, 177);
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.container {
+  width: 420px;
+  margin: 80px auto;
+  background-color: #1F2937;
+  border: 2px solid #4ADF86;
+  border-radius: 12px;
+  padding: 44px 32px 40px 32px;
+  box-sizing: border-box;
+  box-shadow: 0 0 16px #0004;
+  text-align: center;
+}
+
+button {
+  background-color: #10B981;
+  border: none;
+  border-radius: 7px;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 32px;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: background 0.18s;
+}
+
+button:hover {
+  background: #18e6a6;
+  color: #151c2c;
+}
+
+.password-box {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#passwordField {
+  width: 260px;
+  height: 39px;
+  background-color: #273549;
+  border-radius: 8px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #10B981;
+  letter-spacing: 1.1px;
+  margin-right: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
